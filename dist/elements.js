@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.textarea = exports.input = exports.buttonElement = exports.li = exports.ul = void 0;
+const li = document.createElement('li');
+exports.li = li;
+const ul = document.createElement('ul');
+exports.ul = ul;
+ul.appendChild(li);
+const buttonElement = document.createElement('button');
+exports.buttonElement = buttonElement;
+const input = document.createElement('input');
+exports.input = input;
+const textarea = document.createElement('textarea');
+exports.textarea = textarea;
